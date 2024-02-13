@@ -1,0 +1,343 @@
+body {
+    background-color: #171c24;
+}
+nav {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;
+     /* Tambahkan margin pada bagian bawah nav */
+     margin-top: -6px;
+}
+
+nav .logo {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #171c24;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 5px 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.5s ease;
+    transform: translateY(-10px);
+}
+
+nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+nav ul li ul li {
+    border-top: 1px solid #444;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul li ul ul {
+    left: 100%;
+    top: 0;
+    border-radius: 0 5px 5px 5px;
+}
+
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #FFF;
+}
+.header ul li {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: -50px;
+    cursor: pointer;
+    list-style: none;
+}
+.header .search {
+    margin-left: 85%;
+    margin-top: -53px;
+}
+.header__two p {
+    display: inline;
+    color: #fff;
+    margin-left: 250px;
+    padding: -20px;
+    margin-right: -230px;
+    margin-top: -50px;
+}
+.header__two a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #FFF;
+}
+.text  {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 30px;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-bottom: -65px;
+}
+.image {
+    margin-left: 300px;
+}
+.text_two {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.image_two{
+    margin-left: 300px;
+    margin-top: 135px;
+}
+.text_three {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.text_for {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.text_five {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.text_six {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.text_seven {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 280px;
+}
+.text_eight {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.text_nine {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 290px;
+    margin-top: 80px;
+}
+.text_ten {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.image_three {
+    margin-left: 300px;
+    margin-top: 67px;
+}
+.text_eleven {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.text_tweleve {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+.text_therteen {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: 250px; 
+}
+.text_fourteen{
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.text_fiveteen {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 300px;
+    margin-top: -10px; 
+}
+.text_sixteen {
+    color: #fff;
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.text_floor {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 40%;
+    margin-top: -10px; 
+}
+
+
+.menu{
+    position:relative;
+    width:280px;
+    height:280px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 10px;
+    margin-left: 75%;
+    margin-bottom: -225px;
+}
+  .menu .toggle{
+    position:relative;
+    height:60px;
+    width:60px;
+    background:#fff;
+    border-radius:50%;
+    box-shadow:0 3px 4px rgba(0,0,0,0.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#333;
+    font-size:2rem;
+    cursor:pointer;
+    transition:1.25s;
+    z-index:5;
+  }
+  .menu.active .toggle{
+    transform:rotate(360deg);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15),
+      0 0 0 2px #333,
+      0 0 0 8px #fff;
+  }
+  .menu li{
+    position:absolute;
+    left:0;
+    list-style:none;
+    transition:0.5s;
+    transform:rotate(calc(360deg/8 * var(--i)));
+    transform-origin:140px;
+    scale:0;
+    transition-delay: calc(0.05s * var(--i));
+  }
+  .menu.active li{
+    scale:1;
+  }
+  .menu li a{
+    position:relative;
+    display:flex;
+   transform:rotate(calc(360deg/-8 * var(--i)));
+    width:60px;
+    height:60px;
+    background-color:#FFF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    font-size:1.75rem;
+    color:var(--clr);
+     box-shadow:0 3px 4px rgba(0,0,0,0.15);
+    transition:0.5s;
+  }
+  .menu li:hover a{
+    font-size:2.5rem;
+    box-shadow:0 0 0 2px var(--clr),
+      0 0 0 6px #fff;
+  }
+  
+.img .img_2 {
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.img .img_3 {
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+    
+.image-text-2 {
+    color: #fff;
+    font-size: 18px;
+    width: 200px;
+    margin-top: -80px;
+    margin-left: 250px;
+}
+.image-text-1 {
+    color: #fff;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 850px;
+    margin-top: 30px;
+    display: block;
+}

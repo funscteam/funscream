@@ -1,0 +1,46 @@
+.gallery {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Mengurangi padding agar tidak terlalu besar */
+    margin: -20px; /* Mengurangi margin agar tidak terlalu besar */
+    margin-bottom: 10px;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin: 85px 2px 0 ; /* Menambahkan margin kanan dan menghapus margin atas pada gambar */
+  }
+  
+  .gallery img:last-child {
+    margin-right: 0; /* Menghilangkan margin kanan pada gambar terakhir */
+  }
+  
+  .gallery img:hover {
+    width: 250px; ;/* Ubah lebar sesuai yang diinginkan saat dihover */
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 0 30px 10px; /* Menambahkan margin kanan dan bawah antara gambar dan teks */
+  }
+  
+  .image-caption {
+    display: block;
+    margin-top: 5px; /* Mengurangi margin atas pada teks */
+  }
+  body {
+    background-image: url('detailed-hand-painted-pink-watercolour-background_1048-17039.avif');
+    background-size: cover; /* Untuk mengisi seluruh area background */
+    background-position: center; /* Untuk menengahkan background */
+    background-repeat: no-repeat; /* Agar background tidak diulang */
+    margin: 0;
+    padding: 0;
+  }
+  
